@@ -1,0 +1,1 @@
+export const generateVerificationToken = () => Math.floor(100_000 + Math.random() * 999_000).toString();
